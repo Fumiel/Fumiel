@@ -1,0 +1,66 @@
+{
+  "identity": {
+    "username": "fumiel",
+    "terminal_host": "github",
+    "role": "AI Security Researcher",
+    "university": "Kyushu University",
+    "lab": "Sakurai Laboratory",
+    "location": "Fukuoka, Japan"
+  },
+  "systems": {
+    "os": [
+      "macOS",
+      "Windows",
+      "Ubuntu",
+      "iOS"
+    ]
+  },
+  "research": {
+    "current": [
+      {
+        "status": "RUNNING",
+        "label": "AI Agent Security"
+      },
+      {
+        "status": "RUNNING",
+        "label": "Prompt Injection Analysis"
+      },
+      {
+        "status": "RUNNING",
+        "label": "Internal Representation Analysis"
+      },
+      {
+        "status": "READING",
+        "label": "Mechanistic Interpretability"
+      }
+    ],
+    "description": [
+      "Exploring how an AI agent's internal representation changes when its",
+      "original goal is hijacked by external instructions."
+    ]
+  },
+  "projects": [
+    {
+      "pid": "001",
+      "name": "Graduation Research",
+      "status": "running"
+    },
+    {
+      "pid": "002",
+      "name": "Fukuoka Mitoh Solve",
+      "status": "running"
+    }
+  ],
+  "stack": [
+    "Python",
+    "PyTorch",
+    "C/C++",
+    "Swift",
+    "C#",
+    "React",
+    "Git",
+    "Codex",
+    "Unity",
+    "Unreal Engine"
+  ]
+}

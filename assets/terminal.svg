@@ -1,0 +1,66 @@
+<svg width="1000" height="832" viewBox="0 0 1000 832" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg { fill: #0d1117; }
+    .border { stroke: #30363d; stroke-width: 2; }
+    .mono {
+      font-family: "SFMono-Regular", "SF Mono", "Cascadia Code", "Roboto Mono",
+                   "Liberation Mono", Menlo, Consolas, monospace;
+      font-size: 15px;
+      fill: #c9d1d9;
+    }
+    .title {
+      font-family: "SFMono-Regular", "SF Mono", "Cascadia Code", "Roboto Mono",
+                   "Liberation Mono", Menlo, Consolas, monospace;
+      font-size: 17px;
+      font-weight: 700;
+      fill: #58a6ff;
+    }
+    .prompt {
+      font-family: "SFMono-Regular", "SF Mono", "Cascadia Code", "Roboto Mono",
+                   "Liberation Mono", Menlo, Consolas, monospace;
+      font-size: 15px;
+      font-weight: 700;
+      fill: #58a6ff;
+    }
+    .dim {
+      font-family: "SFMono-Regular", "SF Mono", "Cascadia Code", "Roboto Mono",
+                   "Liberation Mono", Menlo, Consolas, monospace;
+      font-size: 15px;
+      fill: #8b949e;
+    }
+    .green {
+      font-family: "SFMono-Regular", "SF Mono", "Cascadia Code", "Roboto Mono",
+                   "Liberation Mono", Menlo, Consolas, monospace;
+      font-size: 15px;
+      fill: #3fb950;
+    }
+    .yellow {
+      font-family: "SFMono-Regular", "SF Mono", "Cascadia Code", "Roboto Mono",
+                   "Liberation Mono", Menlo, Consolas, monospace;
+      font-size: 15px;
+      fill: #d29922;
+    }
+    .accent {
+      font-family: "SFMono-Regular", "SF Mono", "Cascadia Code", "Roboto Mono",
+                   "Liberation Mono", Menlo, Consolas, monospace;
+      font-size: 15px;
+      fill: #bc8cff;
+    }
+    .cursor {
+      fill: #c9d1d9;
+      animation: blink 1s steps(2, start) infinite;
+    }
+    @keyframes blink {
+      50% { opacity: 0; }
+    }
+  </style>
+
+  <rect x="1" y="1" width="998" height="830" rx="14" class="bg border"/>
+  <circle cx="28" cy="28" r="6" fill="#ff5f56"/>
+  <circle cx="49" cy="28" r="6" fill="#ffbd2e"/>
+  <circle cx="70" cy="28" r="6" fill="#27c93f"/>
+  <text x="500" y="34" class="dim" text-anchor="middle">fumiel — research-terminal</text>
+
+  <text x="38" y="78" class="title">fumiel@github</text><text x="38" y="105" class="dim">────────────────────────────────────────────────────────────────────────────</text><text x="38" y="143" class="prompt">$ whoami</text><text x="38" y="173" class="mono">Role        AI Security Researcher</text><text x="38" y="198" class="mono">University  Kyushu University</text><text x="38" y="223" class="mono">Lab         Sakurai Laboratory</text><text x="38" y="248" class="mono">Location    Fukuoka, Japan</text><text x="38" y="292" class="prompt">$ systems --list</text><text x="38" y="322" class="mono">OS          macOS · Windows · Ubuntu · iOS</text><text x="38" y="366" class="prompt">$ research --current</text><text x="38" y="391" class="green">[RUNNING] AI Agent Security</text><text x="38" y="416" class="green">[RUNNING] Prompt Injection Analysis</text><text x="38" y="441" class="green">[RUNNING] Internal Representation Analysis</text><text x="38" y="466" class="yellow">[READING] Mechanistic Interpretability</text><text x="38" y="510" class="prompt">$ cat research.txt</text><text x="38" y="535" class="mono">Exploring how an AI agent&#x27;s internal representation changes when its</text><text x="38" y="560" class="mono">original goal is hijacked by external instructions.</text><text x="38" y="604" class="prompt">$ projects --active</text><text x="38" y="634" class="dim">PID   PROJECT                         STATUS</text><text x="38" y="659" class="mono">001   Graduation Research             running</text><text x="38" y="684" class="mono">002   Fukuoka Mitoh Solve             running</text><text x="38" y="728" class="prompt">$ stack --list</text><text x="38" y="758" class="mono">Python · PyTorch · C/C++ · Swift · C# · React · Git · Codex · Unity · Unreal Engine</text><text x="38" y="802" class="prompt">$</text>
+  <rect x="58" y="788" width="9" height="18" rx="1" class="cursor"/>
+</svg>
