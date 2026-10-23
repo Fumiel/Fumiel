@@ -49,6 +49,11 @@
       "pid": "002",
       "name": "Fukuoka Mitoh Solve",
       "status": "running"
+    },
+    {
+      "pid": "003",
+      "name": "GENIAC-PRIZE 2026",
+      "status": "running"
     }
   ],
   "stack": [
